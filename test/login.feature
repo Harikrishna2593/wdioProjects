@@ -20,3 +20,8 @@ Scenario: login feature for amazon user
 Given user is redirected to login page
 When user enters username and password credentials
 Then user should successfully login
+
+Scenario: login feature for reliance digi user 
+Given user is redirected to login page
+When user enters username and password credentials
+Then user should successfully login
